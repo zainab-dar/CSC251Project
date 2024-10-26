@@ -5,14 +5,9 @@ public class Project_Zainab_Dar
    public static void main(String[] args)
    {
       Scanner keyboard = new Scanner(System.in);
-      int policyNumber;
-      int age;
-      String providerName;
-      String firstName;
-      String lastName;
-      String smokerStatus;
-      double height;
-      double weight;
+      int policyNumber, age;
+      String providerName, firstName, lastName, smokerStatus;
+      double height, weight;
       
       System.out.print("Please enter the Policy Number: ");
       policyNumber = keyboard.nextInt();
