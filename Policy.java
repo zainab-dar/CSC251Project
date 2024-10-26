@@ -148,13 +148,13 @@ public class Policy
       calculateBMI method
       calculate the BMI and return to the user
    */
-   public double calculateBMI(){
+   public double getBMI(){
       double BMI = (weight*703)/Math.pow(height, 2);
       return BMI;
    }
-   public double policyPrice(){
+   public double getPolicyPrice(){
       final int BASE_FEE = 600;
-      double BMI = calculateBMI();
+      double BMI = getBMI();
       double additionalFee = 0;
       
       if (age > 50){
