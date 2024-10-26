@@ -147,6 +147,9 @@ public class Policy
       double BMI = (weight*703)/Math.pow(height, 2);
       return BMI;
    }
+   /**
+      method for determining any additional fees
+   */
    public double getPolicyPrice(){
       final int BASE_FEE = 600;
       double BMI = getBMI();
