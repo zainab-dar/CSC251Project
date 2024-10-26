@@ -1,14 +1,9 @@
 public class Policy
 {
    //data fields
-      private int policyNumber;
-      private String providerName;
-      private String firstName;
-      private String lastName;
-      private int age;
-      private String smokerStatus;
-      private double height;
-      private double weight;
+      private int policyNumber, age;
+      private String providerName, firstName, lastName, smokerStatus;
+      private double height, weight;
    
    //no arg constructor
    public Policy(){
