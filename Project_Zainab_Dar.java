@@ -4,10 +4,14 @@ public class Project_Zainab_Dar
 {
    public static void main(String[] args)
    {
-      Scanner keyboard = new Scanner(System.in);
+      Scanner keyboard = new Scanner(System.in);//creating a scanner object
+      
+      //initializing variables
       int policyNumber, age;
       String providerName, firstName, lastName, smokerStatus;
       double height, weight;
+      
+      //ask user for policy number, provider name, policyholder first name, last name, age, smoking status, height, and weight
       
       System.out.print("Please enter the Policy Number: ");
       policyNumber = keyboard.nextInt();
