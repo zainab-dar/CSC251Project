@@ -1,11 +1,22 @@
 public class Policy
 {
+   /**
+    * this program is to collect information regarding an insurance policy.
+    * it collect info like policy number, provider info,
+    * policyholder's name, age, smoker status, height, and weight.
+    * the program provides methods to set and get these attributes
+    * it also calculates bmi and policy price based on specific conditions.
+    */
+    
    //data fields
       private int policyNumber, age;
       private String providerName, firstName, lastName, smokerStatus;
       private double height, weight;
    
-   //no arg constructor
+   /**no arg constructor
+   * initializes policy info to default values
+   */
+   
    public Policy(){
       policyNumber = 000000; //default value, room temp default
       providerName = "n/a";
@@ -16,7 +27,17 @@ public class Policy
       height = 5.0;
       weight = 100.0;
    }
-   //constructor
+   /*constructor initializes the policy variable to specific values
+    * @param aPolicyNumber the policy number
+    * @param aProviderName the provider name
+    * @param aFirstName the policyholder's first name
+    * @param aLastName the policyholder's last name
+    * @param bAge the policyholder's age
+    * @param aSmokerStatus the policyholder's smoker status
+    * @param aHeight the policyholder's height in inches
+    * @param aWeight the policyholder's weight in pounds
+    */
+    
    public Policy(int aPolicyNumber, String aProviderName, String aFirstName, String aLastName, int bAge, String aSmokerStatus, double aHeight, double aWeight){
       policyNumber = aPolicyNumber;
       providerName = aProviderName;
