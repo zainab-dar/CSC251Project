@@ -18,12 +18,12 @@ public class Policy
    */
    
    public Policy(){
-      policyNumber = 000000; //default value, room temp default
-      providerName = "n/a";
-      firstName = "n/a";
-      lastName = "n/a";
+      policyNumber = 0; //default value, room temp default
+      providerName = "";
+      firstName = "";
+      lastName = "";
       age = 0;
-      smokerStatus = "no";
+      smokerStatus = "";
       height = 5.0;
       weight = 100.0;
    }
